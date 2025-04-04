@@ -6,12 +6,12 @@
 #    By: nrais <nrais@student.1337.ma>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/13 02:19:41 by nrais             #+#    #+#              #
-#    Updated: 2025/03/23 08:33:44 by nrais            ###   ########.fr        #
+#    Updated: 2025/04/04 16:25:32 by nrais            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC		= cc
-CFLAGS	= -Wall -Werror -Wextra #-fsanitize=address -g3
+# CFLAGS	= -Wall -Werror -Wextra -fsanitize=address -g3
 RM = rm -f
 
 NAME 	= push_swap

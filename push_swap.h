@@ -6,7 +6,7 @@
 /*   By: nrais <nrais@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/15 23:24:16 by nrais             #+#    #+#             */
-/*   Updated: 2025/03/23 08:16:42 by nrais            ###   ########.fr       */
+/*   Updated: 2025/04/04 16:14:58 by nrais            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ char				**ft_split(char const *s, char c);
 char				*ft_strjoin(char *s1, char *s2);
 int					ft_strlen(char *s);
 int					is_empty(char *str);
+char				*ft_strdup(char *s1);
 
 // STACK_MANAGEMENT
 void				creat_stack(t_stack **a, char **str);
