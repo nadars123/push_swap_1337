@@ -6,13 +6,13 @@
 /*   By: nrais <nrais@student.1337.ma>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 02:27:04 by nrais             #+#    #+#             */
-/*   Updated: 2025/03/21 00:58:01 by nrais            ###   ########.fr       */
+/*   Updated: 2025/04/04 16:36:47 by nrais            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../push_swap.h"
 
-static void	index(t_stack *a, t_stack *b)
+static void	ft_index(t_stack *a, t_stack *b)
 {
 	if (a->value > b->value)
 		a->curr_position++;
@@ -39,10 +39,10 @@ static void	append_node(t_stack **a, int nbr)
 	}
 	while (tmp->next)
 	{
-		index(tmp, new_node);
+		ft_index(tmp, new_node);
 		tmp = tmp->next;
 	}
-	index(tmp, new_node);
+	ft_index(tmp, new_node);
 	tmp->next = new_node;
 }
 
